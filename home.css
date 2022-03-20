@@ -1,0 +1,221 @@
+﻿   html{
+    scroll-behavior:smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Candara;
+    background: url(pic.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: antiquewhite;  
+}
+.ima{
+    margin: 15px;   
+}
+.nav ul{
+    margin:0;
+    font-size:1.1em;
+    font-weight: lighter;
+    border-bottom: 1px solid rgba(255,255,255,.3);
+    padding:0px 10px;  
+}
+.mainheader{
+    background-image: url(head.jpeg);
+    background-size: cover;
+    padding-bottom: 50px;
+    margin-bottom: 10px;   
+}
+.nav a:hover{
+    background-color: rgba(255,255,255,.5);
+}
+.nav li{
+    display: inline;
+    padding: 0 0.5%;
+}
+.nav a{
+    padding: 20px 25px 20px 25px;         
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+    font-family: sans-serif;    
+}
+.name{
+  padding-top: 10px;
+    margin: 0px 0px 0px 17px;
+    font-size:5em;
+    font-family: Cooper;
+    color: darkslategrey;    
+}
+.homepagehead{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size:2em;
+}
+.ima{
+    float:right;
+    margin: 15px;
+}
+.foot {
+    background-image: url(head.jpeg);
+    background-size: cover;
+    padding-bottom: 30px;
+    margin-bottom: 0px;
+    padding-top: 1px;
+    margin-top: 50px;
+    position: relative;
+    clear:both;
+}
+.tag img{
+    width:40px;
+    height:40px;
+}
+.tag li{
+   display: inline-block;
+   padding: 0px 10px 0px 5px ;
+   margin-left: 0px;
+}
+.tag img:hover{
+    transform:scale(1.1);
+}
+.donorhead {
+    font-size: 2.5em;
+    margin-left: 25px;
+    font-weight:900;
+    text-align:center;
+}
+.paragh {
+    font-size: 1.4em;
+    margin: 5px 25px;
+}
+.footheading {
+    color: darkslategrey;
+    font-family: Cooper;
+    margin-left: 40px;
+}
+.chart{
+    margin: 0px 25px;
+    width:auto;
+    padding-left:128px;
+}
+
+.parahead{
+    margin-left:20px;
+    font-weight:800;
+
+}
+.float{
+    position:fixed;
+}
+.parahead2 {
+    font-size: 2.4em;
+    padding-left: 20px;
+    text-align: center;
+}
+.parahead3 {
+    margin-left: 20px;
+    font-weight: 800;
+    font-size:1.6em;
+    text-align:center;
+}
+.eligibilitybox {
+    background-color: rgba(0,0,0,0.35);
+    padding: 10px 20px 10px 20px;
+    height: 250px;
+    width: 75%;
+    text-align: center;
+    margin: 20px auto;
+  
+}
+.eligibilitybox2 {
+    background-color: rgba(0,0,0,0.35);
+    padding: 10px 20px 10px 10px;
+    height: 880px;
+    width: 80%;
+    margin: 20px auto;
+}
+.box {
+    background-color: rgba(0,0,0,0.35);
+    padding: 20px;
+    height: auto;
+    width: 80%;
+    text-align: center;
+    margin: 20px auto;
+    border: dotted;
+}
+.box1 {
+    background-color: rgba(0,0,0,0.35);
+    padding: 20px 10px 30px 10px;
+    height: auto;
+    width: 80%;
+    margin: 20px auto;
+    transition: 0.5s;
+}
+.box2 {
+    background-color: rgba(0,0,0,0.35);
+    padding: 20px 10px 30px 10px ;
+    height: auto;
+    width: 87%;
+    border: ridge;
+    margin: 20px auto;
+    transition:0.5s;
+}
+.box1:hover{
+   transform:scale(1.05);
+}
+.box2:hover {
+    transform: scale(1.05);
+}
+
+.facthead {
+    font-size: 3em;
+    font-weight: 900;
+    text-align: center;
+}
+.factbox {
+    background-color: rgba(0,0,0,0.35);
+    width: 28.5%;
+    height: 80px;
+    margin: 15px 5px 15px 38px;
+  border: 1px outset ;
+    float: left;
+    text-align:center;
+    padding:3px 5px 6px 5px;
+}
+.scrollup {
+    background-color: rgba(0,0,0,0.5);
+    color: white;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    text-align: center;
+    text-decoration: none;
+    line-height: 50px;
+    font-size: 22px;
+}
+.scrolldiv {
+    position: fixed;
+    bottom:55px;
+    right:55px;
+}
+.scrolldiv a:hover{
+    background-color:black;
+    color:forestgreen;
+}
+.navbottom li{
+    display: inline;
+    float:left;
+    padding: 3px 5px;
+    margin:0px 5px 3px 2px ;
+}
+.navbottom a{
+    color: darkslategrey;
+    text-decoration:none;
+    font-size: 15px;
+    font-weight:700;
+}
+.navbottom a:hover{
+    text-decoration-line:underline;
+    color:black;
+}

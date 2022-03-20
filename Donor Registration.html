@@ -1,0 +1,130 @@
+﻿
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <link rel="stylesheet" href="StyleSheet.css" />
+    <link rel="stylesheet" href="home.css" />
+    <link href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" rel="stylesheet">
+    <title> Registration Form </title>
+</head>
+
+<body>
+    <header class="mainheader">
+        <nav class="nav">
+            <ul>
+                <li><a href="home.html">HOME</a></li>
+                <li><a href="eligibility.html">ELIGIBILITY CRITERIA</a></li>
+                <li><a href="Donor Registration.html">DONOR REGISTRATION</a></li>
+                <li><a href="facts.html">BLOOD FACTS</a></li>
+            </ul>
+        </nav>
+        
+        <h1 class="name">Blood Donation</h1>
+    </header>
+    
+    <strong><marquee>|| Donate Blood , Save Life || Bring a life back to power,make blood donation your responsibility || Donate Blood , Save Life ||</marquee></strong>
+    <section>
+        
+        <form action="register.php" method="post">
+           
+            <div class="loginbox">
+                <h2>Blood Donation Registration Form</h2>
+                <div class="textbox">
+                    <label for="first name"> <i class="far fa-user"></i>  First Name:  </label>
+                    <input type="text" name="first_name" id="first name" placeholder="Enter first name" required />
+                </div>
+                <br />
+                <div class="textbox">
+                    <label for="last name"> <i class="far fa-user"></i>  Last Name: </label>
+                    <input type="text" name="last_name" id="last name" placeholder="Enter last name" required />
+                </div>
+                <br />
+                <div class="textbox">
+                    <label for="email"><i class="far fa-envelope"></i>  Email:  </label>
+                    <input type="email" name="email" id="email" placeholder="Enter your Email ID" required />
+                </div>
+                <br />
+                <div class="textbox">
+                    <label for="age"><i class="fas fa-male"></i> Age:  </label>
+                    <input type="number" name="age" id="age" placeholder="Age" min="17" max="80" />
+                </div>
+                <br />
+                <div class="textbox">
+                    <label for="date"><i class="far fa-calendar-alt"></i> Date of Birth:  </label>
+                    <input type="date" name="dob" id="date" required />
+                </div>
+                <br />
+                <div class="textbox">
+                    <label for="phone"><i class="fas fa-phone"></i>  Phone No:</label>
+                    <input type="tel" name="phone" id="phone" />
+                </div>
+                <br />
+                <div class="textbox1">
+                    <label> <i class="fas fa-tint"></i>  Blood Group  </label>
+
+                    <select for="bloodgroup" name="bloodgroup">
+                        <option >---select---</option>
+                        <option value="A+">A+</option>
+                        <option value="B+">B+</option>
+                        <option value="AB+">AB+</option>
+                        <option value="A-">A-</option>
+                        <option value="B-">B-</option>
+                        <option value="AB-">AB-</option>
+                        <option value="O+">O+</option>
+                        <option value="O-">O-</option>
+                    </select>
+                </div>
+                <br />
+
+                <div class="textbox1">
+                      Have you donated blood before?<br />
+                    <br /><label for="yes">YES</label>
+                    <input type="radio" name="donate" id="yes" value="yes" />
+                </div>
+                <div class="textbox1">
+                    <label for="no">NO</label>
+                    <input type="radio" name="donate" id="no" value="no" />
+                </div>
+                <br />
+                <div class="textbox1">
+                    <label for="address"> <i class="far fa-address-card"></i>  Address:</label>
+                    <textarea class="textbox" id="address " name="address" placeholder="Address is not mandatory"></textarea>
+                </div>
+                <br />
+                <div class="textbox1">
+                    <label for="file"><i class="far fa-file-image"></i>  Upload your Aadhar Card*</label>
+                    <input type="file" id="file" name="file" />
+                </div>
+                <br />
+                
+                    <button class="btn" type="submit" name="submit"> Submit</button>
+                    <button class="btn" type="reset">Reset</button>
+                </div>
+            
+        </form>
+    </section>   
+    <footer class="foot">
+
+        <h4 class="footheading">Blood Donation</h4>
+        <ul class="tag">
+            <li> <a href="https://www.facebook.com"><img src="https://cdn.freebiesupply.com/images/large/2x/facebook-logo-circle.png" /></a></li>
+            <li> <a href="https://www.twitter.com"><img src="https://i.pinimg.com/originals/2c/8f/f6/2c8ff68d1cb673d60bd3767d53a41210.png" /></a></li>
+            <li> <a href="https://www.instgram.com"><img src="https://cms.jibecdn.com/prod/teamselecthh-contactus/assets/LP-A2-1-SOCIAL-NAME_2-en-us-1597755575398.png" /></a></li>
+            <li> <a href="https://www.pinterest.com"><img src="https://pngimg.com/uploads/pinterest/pinterest_PNG63.png" /></a></li>
+            <li> <a href="https://www.gmail.com"><img src="https://assets.stickpng.com/thumbs/58e91c61eb97430e8190650b.png" /></a></li>
+        </ul>
+
+        <nav class="navbottom">
+            <ul>
+                <li><a href="home.html">HOME</a></li>
+                <li><a href="eligibility.html">ELIGIBILITY CRITERIA</a></li>
+                <li><a href="Donor Registration.html">DONOR REGISTRATION</a></li>
+                <li><a href="facts.html">BLOOD FACTS</a></li>
+            </ul>
+        </nav>
+
+    </footer>
+
+</body>
+</html>
